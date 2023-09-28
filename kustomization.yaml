@@ -1,2 +1,8 @@
 resources:
-- 
+- deployments/mongo-deployment.yaml
+- deployments/pacman-deployment.yaml
+- persistentvolumeclaim/mongo-pvc.yaml
+- security/rbac.yaml
+- security/secret.yaml
+- services/mongo-service.yaml
+- services/pacman-service.yaml
